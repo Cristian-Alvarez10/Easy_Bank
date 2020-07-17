@@ -168,6 +168,17 @@ body {
   z-index: 0;
   top: -14%;
   left: 51%;
+  overflow: hidden;
+}
+
+.image_back-mobile {
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 10%;
+  left: 0%;
+  overflow: hidden;
 }
 
 .image__phones {
@@ -551,11 +562,11 @@ body {
   }
 
   .image__back {
-      width: 200%;
-      position: absolute;
-      z-index: 0;
-      top: -25%;
-      left: -24%;
+     display: none;
+  }
+
+.image_back-mobile {
+  display: block;
 }
 
 .image__phones {
